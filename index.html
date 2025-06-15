@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pagina Winkipedia moderna">
+    <meta name="keywords" content="HTML, CSS e semantica">
+    <meta name="author" content="Fernanda Linhares">
+  <title>Apuama Rafting</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header" role="banner">
+    <div class="header-container">
+      <div class="logo">
+        <figure>
+          <img src="assets/winkpedia.jpg" alt="Logo do site" width="150" />
+        </figure>
+      </div>
+
+      <div class="slogan" >
+        <h1>Enciclopédia livre!</h1>
+      </div>
+
+      <form class="search-form" role="search" aria-label="Busca no site">
+        <label for="campo-busca" class="visually-hidden">Buscar no site</label>
+        <input type="search" id="campo-busca" name="q" placeholder="Buscar..." required />
+        <button type="submit">🔍</button>
+      </form>
+    </div>
+  </header>
+
+  <div class="layout">
+    <nav class="sidebar" aria-label="Menu principal">
+      <h2>Rafting Santo Amaro</h2>
+      <li><a href="#empresa">Apuama Rafting</a></li>
+      <li><a href="#local">Local</a></li>
+      <li><a href="#class">Classes</a></li>
+      <li><a href="#ref">Referência</a></li>
+
+      <br>
+
+      <h3>Outras atividades</h3>
+      <ul>
+        <h4>Arvorismo</h4>
+        <figure><img src="assets/arvorismo.jpg" alt="Circuito Arvorismo" width="400"></figure>
+
+        <h4>Arvorismo KIDS</h4>
+        <figure><img src="assets/Arvorismo kids.jpeg" alt="Criança equipada para arvorismo" width="400"></figure>
+
+        <h4>Rapel Cachoeira Ressurreição</h4>
+        <figure><img src="assets/rapel-cachoeira-ressurreicao02-1700x956 (1).jpg" alt="Rapel na cachoeira" width="400"></figure>
+
+        <h4>Cachoeira do Rio Vermelho</h4>
+        <figure><img src="assets/cachoeira-rio-vermelho01-1700x956.jpg" alt="Imagem cachoeira do Rio Vermelho" width="400"></figure>
+
+        <h4>Rapel Parede Escalada</h4>
+        <figure><img src="assets/parede_rapel_rec.PNG" alt="Rapel na parede de escalada" width="400"></figure>
+      </ul>
+    </nav>
+
+    <main class="main-content">
+      <article>
+        <section>
+          <h1>Rafting Santo Amaro</h1>
+          <p>O rafting é um desporto de aventura que se baseia na prática de descida em corredeiras em equipe utilizando botes infláveis.</p>
+          <figure>
+            <img src="assets/foto_rafting.JPG" alt="Bote de rafting descendo a corredeira" width="900">
+          </figure>
+        </section>
+
+        <br>
+
+        <section>
+          <h3 id="empresa">Apuama</h3>
+          <p>Há 22 anos no mercado de ecoturismo, a <b>Apuama</b> Rafting oferece muita adrenalina e diversão na atividade de rafting. Seguimos o Sistema de Gerenciamento de riscos e normativas e manutenção preventiva em todos os nossos equipamentos.</p>
+        </section>
+
+        <section>
+          <h3 id="local">Local</h3>
+          <p>O rafting é realizado no Rio São Cubatão, na região de Santo Amaro da Imperatriz, Santa Catarina. O percurso é de 6 km e leva cerca de 2 horas para ser concluído. Durante o trajeto, os participantes enfrentam corredeiras emocionantes e desfrutam de belas paisagens naturais.</p>
+        </section>
+
+        <section>
+          <h3 id="class">Classes</h3>
+          <ul>
+            <li>Nível I: Áreas com pedras muito pequenas; requer poucas manobras.</li>
+            <li>Nível II: Algumas águas agitadas, talvez algumas rochas; pode exigir manobras.</li>
+            <li>Nível III: Ondas pequenas, talvez uma pequena queda, mas sem perigo. Pode requerer habilidade de manobra significativa.</li>
+            <li>Nível IV: Ondas médias, presença de poucas pedras, com quedas consideráveis; manobras mais difíceis podem ser necessárias</li>
+            <li>Nível V: Grandes ondas, possibilidade de grandes rochas, possibilidade de grandes quedas, há riscos e exige manobras precisas</li>
+            <li>Nível VI: Corredeiras extremamente perigosas, pedras e ondas enormes. O impacto da água pode até causar estragos no equipamento.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3 id="ref">Referências</h3>
+          <ul>
+            <li><a href="https://www.apuama.com.br/rafting-santo-amaro" target="_blank">Apuama Rafting</a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/Rafting" target="_blank">Rafting - Wikipédia</a></li>
+            <li><a href="https://visitesantoamaro.com.br/" target="_blank">Secretaria de Turismo</a></li>
+          </ul>
+        </section>
+      </article>
+    </main>
+
+    <aside class="info-section">
+      <div class="video-container">
+        <iframe width="250" height="200" src="https://www.youtube.com/embed/YbiruOyg9H4" title="Vídeo Rafting" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div class="address">
+        <p><strong>Rod. Princesa Leopoldina, 1900, Caldas, Santo Amaro da Imperatriz.</strong></p>
+      </div>
+
+      <div class="location-info">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.8310959964483!2d-48.81360222485204!3d-27.722500827524232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9520c968a3831475%3A0xd976a3f880af8612!2sApuama%20Rafting%20Grande%20Florian%C3%B3polis!5e0!3m2!1spt-BR!2sbr!4v1749928910159!5m2!1spt-BR!2sbr" width="250" height="200" style="border:0;" allowfullscreen loading="lazy" title="Mapa do local"></iframe>
+      </div>
+
+      <div class="location-table">
+        <table border="1" role="table" aria-label="Informações de localização">
+          <caption>Informações Santo Amaro</caption>
+          <thead>
+            <tr>
+              <th scope="col">Local</th>
+              <th scope="col">Informação</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Estado</th><td>Santa Catarina</td></tr>
+            <tr><th scope="row">Cidade</th><td>Santo Amaro da Imperatriz</td></tr>
+            <tr><th scope="row">Bairro</th><td>Caldas da Imperatriz</td></tr>
+            <tr><th scope="row">Distância Capital</th><td>33 km</td></tr>
+            <tr><th scope="row">Coordenadas</th><td>27° 41′ 16″ S, 48° 46′ 44″ O</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div>
+        <figure><img src="assets/logo web.jpg" alt="Logomarca Apuama" width="400"></figure>
+        <figure><img src="assets/cadastur.png" alt="Logomarca Cadastur" width="400"></figure>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 - Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
